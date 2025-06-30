@@ -1,0 +1,77 @@
+.concession-form {
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  position: relative;
+  overflow: visible;
+}
+
+/* Button left, modal centered */
+.coupon-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+/* Modal */
+.coupon-popout {
+  position: absolute;
+ 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 2rem;
+  z-index: 1050;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease-in-out;
+  
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Button and label styles */
+.coupon-popout .btn-close {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.coupon-popout .form-label {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.coupon-popout input {
+  border-radius: 10px;
+}
+
+.coupon-popout .btn {
+  border-radius: 12px;
+  padding: 0.45rem 1.4rem;
+  font-size: 0.95rem;
+
+}
+.concession-form label {
+  color: var(--Gray-700, #344054);
+font-family: "Segoe UI";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+}

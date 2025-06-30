@@ -1,0 +1,66 @@
+.sales-nav-container {
+
+  border-radius: 6px 6px 6px 6px;
+  background: #fff;
+  width: 100%;
+ 
+
+}
+
+.step-nav {
+  background-color:  #F9F8F8;
+  border-radius: 4px;
+}
+
+.step-item {
+  cursor: pointer;
+  flex: 1;
+  transition: background 0.3s;
+  /* border-right: 1px solid #e0e0e0; */
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  
+}
+
+.step-item:last-child {
+  border-right: none;
+}
+
+.step-item span {
+ color: #000;
+font-family: "Segoe UI";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.step-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #3c34ff;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.step-item.active {
+  background-color: #3c34ff;
+  color: white;
+}
+
+.step-item.active span {
+  color: white;
+}
+
+
+.step-item.active .step-circle {
+  background-color: white;
+  color: rgba(52, 37, 255, 1);
+}

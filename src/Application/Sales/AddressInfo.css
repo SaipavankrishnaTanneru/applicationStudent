@@ -1,0 +1,25 @@
+.address-form {
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.address-form .form-label {
+  color: var(--Gray-700, #344054);
+font-family: "Segoe UI";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+}
+
+.address-form .form-control,
+.address-form .form-select {
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.address-form .btn-primary {
+  background-color: #2600fc;
+  border-color: #2600fc;
+  border-radius: 10px;
+}

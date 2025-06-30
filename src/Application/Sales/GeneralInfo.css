@@ -1,0 +1,73 @@
+form {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.category {
+  color: #82808F;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.category-line {
+  width: 525px;
+  height: 1px;
+  background: linear-gradient(90deg, #B6B6B6 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+label.form-label {
+  color: var(--Gray-700, #344054);
+  font-family: "Segoe UI";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+input.form-control,
+select.form-select {
+  border-radius: 8px;
+  height: 42px;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+input.form-control:disabled,
+select.form-select:disabled {
+  background-color: #FFF;
+  color: #999;
+}
+
+button.btn {
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -0.072px;
+}
+
+button.btn-outline-secondary {
+  border-radius: 51px;
+  border: 2px solid #EBEBEB;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+
+button.btn-primary {
+  background-color: #342fff;
+  border-color: #3c2ff3;
+}
+
+button.btn-primary:hover {
+  background: #3425FF;
+}
+
+.invalid-feedback {
+  font-size: 12px;
+}
+
+button.btn.d-flex.align-items-center svg {
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+}
