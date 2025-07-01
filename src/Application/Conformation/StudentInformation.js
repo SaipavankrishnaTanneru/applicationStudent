@@ -23,7 +23,7 @@ const StudentInformation = ({ onNext }) => {
     };
 
     return (
-        <div className="student-info-container mt-1 mb-3">
+        <div className="student-info-container " style={{backgroundColor:'rgba(255, 255, 255, 1)', maxHeight: '55vh', overflowX: 'hidden' }}>
             <div className="student-info-header">
                 <div className="student-text-header">
                     <div className="student-info-item">
@@ -47,7 +47,7 @@ const StudentInformation = ({ onNext }) => {
 
             <Formik initialValues={initialValues} onSubmit={handleSubmit}>
                 {({ values, setFieldValue }) => (
-                    <Form className="student-form-container">
+                    <Form className="student-form-container ">
                         <div className="student-form-grid">
                             <div className="student-form-group">
                                 <label className="student-form-label">Admission No.</label>
@@ -116,7 +116,9 @@ const StudentInformation = ({ onNext }) => {
 
                         <div className="student-form-footer">
                             <button type="submit" className="student-next-btn">
-                                Next <span>&rarr;</span>
+                                Next <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+  <path d="M5.5 11C4.94772 11 4.5 11.4477 4.5 12C4.5 12.5523 4.94772 13 5.5 13V11ZM21.2071 12.7071C21.5976 12.3166 21.5976 11.6834 21.2071 11.2929L14.8431 4.92893C14.4526 4.53841 13.8195 4.53841 13.4289 4.92893C13.0384 5.31946 13.0384 5.95262 13.4289 6.34315L19.0858 12L13.4289 17.6569C13.0384 18.0474 13.0384 18.6805 13.4289 19.0711C13.8195 19.4616 14.4526 19.4616 14.8431 19.0711L21.2071 12.7071ZM5.5 12V13H20.5V12V11H5.5V12Z" fill="white"/>
+</svg>
                             </button>
                         </div>
                     </Form>

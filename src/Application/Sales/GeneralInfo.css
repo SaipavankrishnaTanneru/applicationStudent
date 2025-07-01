@@ -1,36 +1,36 @@
 form {
   background-color: #fff;
-  border-radius: 12px;
-  padding: 24px;
+  border-radius: 0.75rem; /* 12px */
+  padding: 0.5rem; /* 8px */
 }
 
 .category {
   color: #82808F;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 0.875rem; /* 14px */
   font-weight: 500;
 }
 
 .category-line {
-  width: 525px;
-  height: 1px;
+  width: 32.8125rem; /* 525px */
+  height: 0.0625rem; /* 1px */
   background: linear-gradient(90deg, #B6B6B6 0%, rgba(255, 255, 255, 0.00) 100%);
 }
 
 label.form-label {
   color: var(--Gray-700, #344054);
   font-family: "Segoe UI";
-  font-size: 12px;
+  font-size: 0.75rem; /* 12px */
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.25rem; /* 20px */
 }
 
 input.form-control,
 select.form-select {
-  border-radius: 8px;
-  height: 42px;
-  font-size: 14px;
-  padding: 8px 12px;
+  border-radius: 0.5rem; /* 8px */
+  height: 2.625rem; /* 42px */
+  font-size: 0.875rem; /* 14px */
+  padding: 0.5rem 0.75rem; /* 8px 12px */
 }
 
 input.form-control:disabled,
@@ -40,17 +40,17 @@ select.form-select:disabled {
 }
 
 button.btn {
-  border-radius: 16px;
-  font-size: 12px;
+  border-radius: 0.5rem; 
+  font-size: 0.75rem; /* 12px */
   font-weight: 600;
-  letter-spacing: -0.072px;
+  letter-spacing: -0.0045rem; /* -0.072px */
 }
 
 button.btn-outline-secondary {
-  border-radius: 51px;
-  border: 2px solid #EBEBEB;
+  border-radius: 3.1875rem; /* 51px */
+  border: 0.125rem solid #EBEBEB; /* 2px */
   background: #FFF;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0rem 0.125rem 0.25rem 0rem rgba(0, 0, 0, 0.07); /* 0px 2px 4px 0px */
 }
 
 button.btn-primary {
@@ -63,11 +63,11 @@ button.btn-primary:hover {
 }
 
 .invalid-feedback {
-  font-size: 12px;
+  font-size: 0.75rem; /* 12px */
 }
 
 button.btn.d-flex.align-items-center svg {
   fill: currentColor;
-  width: 16px;
-  height: 16px;
+  width: 1rem; /* 16px */
+  height: 1rem; /* 16px */
 }

@@ -1,6 +1,6 @@
-/* Outer container spans 80% of viewport width */
+/* Container wrapping the entire nav bar */
 .confirmation-nav-container {
-  width: 80vw;
+  width: 85vw;
   max-width: 100%;
   margin: 0 auto;
   background-color: #fff;
@@ -8,7 +8,7 @@
 }
 
 /* Navigation bar holding the steps */
-.step-nav {
+.confirmation-step-nav {
   display: flex;
   width: 100%;
   border: 1px solid #e2e8f0;
@@ -18,7 +18,7 @@
 }
 
 /* Individual step tab */
-.step-tab {
+.confirmation-step-tab {
   flex: 1;
   padding: 12px 0;
   font-weight: 500;
@@ -34,18 +34,18 @@
 }
 
 /* Active tab style */
-.step-tab.active {
+.confirmation-step-tab.active {
   background-color: #2e2bff;
   color: white;
 }
 
 /* Hover effect on inactive tabs */
-.step-tab:not(.active):hover {
+.confirmation-step-tab:not(.active):hover {
   background-color: #f4f6ff;
 }
 
 /* Step number circle */
-.step-number {
+.confirmation-step-number {
   background-color: #2e2bff;
   color: white;
   border-radius: 50%;
@@ -59,7 +59,7 @@
 }
 
 /* Active step number (reversed color) */
-.step-tab.active .step-number {
+.confirmation-step-tab.active .confirmation-step-number {
   background-color: white;
   color: #2e2bff;
 }

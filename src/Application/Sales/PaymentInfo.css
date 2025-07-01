@@ -9,6 +9,7 @@
   height: 1px;
   width: 100%;
   margin-top: 0.3rem;
+  max-width: 525px;
 }
 
 /* Payment Mode Wrapper */
@@ -58,7 +59,6 @@
   fill: currentColor;
 }
 
-/* Ensures hover/selected keeps icon white */
 .payment-mode-btn.selected svg,
 .payment-mode-btn:hover svg {
   fill: #ffffff;
@@ -75,8 +75,13 @@
   font-size: 12px;
   font-weight: 400;
   color: #000;
+  margin: 0;
 }
 
 .form-control-sm {
   font-size: 0.875rem;
+}
+
+.special-concession-block {
+  min-width: 220px;
 }

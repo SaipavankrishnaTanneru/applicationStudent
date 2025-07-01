@@ -2,8 +2,7 @@
 
   border-radius: 6px 6px 6px 6px;
   background: #fff;
-  width: 100%;
- 
+  width: 100%; 
 
 }
 
@@ -17,8 +16,8 @@
   flex: 1;
   transition: background 0.3s;
   /* border-right: 1px solid #e0e0e0; */
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
   padding-left: 1rem;
   
 }
